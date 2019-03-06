@@ -8,7 +8,7 @@ from the Ratschlab, also known as the [Biomedical Informatics](http://bmi.inf.et
 
 ## Code Quickstart
 
-Primary dependencies: `tensorflow`, `scipy`, `numpy`, `pandas`
+Primary dependencies: `torch`, `scipy`, `numpy`
 
 Note: This code is written in Python3!
 
