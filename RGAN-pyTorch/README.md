@@ -35,7 +35,7 @@ Note: This code is written in Python3!
 
 `RCGAN_script.py`: Same as `RCGAN.ipynb` but saves the plots your `workdir`instead of plotting them. It's just a python script to run on your terminal. Helpful if you want to experiment with a lot of epochs on an Azure machine for example.
 
-`/experiments`: A directory containing the latest experiment run results. Will updated if this model works.
+`/experiment`: A directory containing the latest experiment run results. Will updated if this model works.
 
 ## Data sources (TODO)
 
