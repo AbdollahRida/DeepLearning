@@ -17,6 +17,10 @@ Discriminator is designed as many-to-one model, which get sequential images, and
 
 ![alt tag](https://github.com/jaesik817/SequentialData-GAN/blob/master/figures/model.png)
 
+### Results:
+
+Currently it doesn't work that well. :( 
+
 ## Code Quickstart
 
 Primary dependencies: `torch`, `scipy`, `numpy`
@@ -25,7 +29,10 @@ Note: This code is written in Python3!
 
 ## Files in this Repository
 
-TODO
+`RGAN.ipynb`: An iPyNB implementing the aforementionned RGAN architecture.
+`RCGAN.ipynb`: An iPyNB implementing a conditionnal RGAN architecture. The model now cannot ignore the labels of the input data.
+`RCGAN_script.py`: Same as `RCGAN.ipynb` but saves the plots your `workdir`instead of plotting them. It's just a python script to run on your terminal. Helpful if you want to experiment with a lot of epochs on an Azure machine for example.
+`/experiments`: A directory containing the latest experiment run results. Will updated if this model works.
 
 ## Data sources (TODO)
 
