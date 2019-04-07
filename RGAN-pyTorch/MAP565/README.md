@@ -19,19 +19,15 @@ Currently it doesn't work that well. :(
 
 ## Code Quickstart
 
-Primary dependencies: `torch`, `scipy`, `numpy`
+Primary dependencies: `arch`, `scipy`, `numpy`, `statsmodels`
 
 Note: This code is written in Python3!
 
 ## Files in this Repository
 
-`RGAN.ipynb`: An iPyNB implementing the aforementionned RGAN architecture.
+`MAP565.ipynb`: An iPython notebook contaning the code used to fit ARIMA/GARCH models + the statistical tests.
 
-`RCGAN.ipynb`: An iPyNB implementing a conditionnal RGAN architecture. The model now cannot ignore the labels of the input data.
-
-`RCGAN_script.py`: Same as `RCGAN.ipynb` but saves the plots your `workdir`instead of plotting them. It's just a python script to run on your terminal. Helpful if you want to experiment with a lot of epochs on an Azure machine for example.
-
-`/experiment`: A directory containing the latest experiment run results. Will updated if this model works.
+`/data`: A directory containing the data used or that will be used for this model.
 
 ## Data sources (TODO)
 
